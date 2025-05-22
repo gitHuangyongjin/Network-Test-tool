@@ -15,8 +15,6 @@ time_total: 0.345532s
 down_speed: 0 bytes/s
 
 
-
-
 输出结果：
 %{time_namelookup}::%{time_connect}::%{time_starttransfer}::%{time_total}::%{speed_download}
 
