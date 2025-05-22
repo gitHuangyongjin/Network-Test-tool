@@ -1,3 +1,5 @@
+# http访问
+
 ### 测试端口是否开启
 nc -zv www.baidu.com 80
 
