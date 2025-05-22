@@ -14,10 +14,7 @@ time_transfer:0.345109
 time_total: 0.345532s
 down_speed: 0 bytes/s
 
-
-输出结果：
-%{time_namelookup}::%{time_connect}::%{time_starttransfer}::%{time_total}::%{speed_download}
-
+### 输出说明
 ###### time_namelookup: DNS解析时间
 ###### time_connect: TCP连接时间，三次握手时间
 ###### time_starttransfer: 从建立连接到接收到第一个字节的时间
