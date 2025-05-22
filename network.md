@@ -26,14 +26,14 @@ time_redirect: 重定向时间
 
 
 ### 检查DNS是否被污染
-nslookup github.com
+nslookup github.com  
 dig github.com
 
 #### 1. 强制使用公共DNS
 curl --resolve www.baidu.com:443:180.101.50.188 -I https://www.baidu.com
 
 #### 2. 检查是否被代理拦截
-env | grep -i proxy  # 查看是否有代理设置
+env | grep -i proxy  # 查看是否有代理设置  
 unset ALL_PROXY no_proxy
 
 #### 3. 完全绕过本地网络设置
