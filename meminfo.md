@@ -14,7 +14,7 @@ grep -r '^VmRSS:' /proc/[0-9]*/status | awk '{split($0,a,"/"); print a[3],$2}' |
 watch -n 2 "cat /proc/meminfo | grep -E 'MemFree|Cached|Slab|Buffers|KernelStack'"
 
 ### 4. 检查slab内存详情
-cat /proc/slabinfo
+cat /proc/slabinfo  
 
 /tmp # cat /proc/slabinfo  
 slabinfo - version: 2.1
